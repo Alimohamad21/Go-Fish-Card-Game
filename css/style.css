@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'AlgerianD';
+    src: url("AlgerianD.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: FBD, sans-serif;
+    background-color: #3e8f3e;
+}
+
+@font-face {
+    font-family: 'FBD';
+    src: url("FBD.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#header-nav {
+    background-color:black;
+    height: 100px;
+    font-family: AlgerianD, sans-serif;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-brand h1 {
+    color: red;
+    font-size: 2.2em;
+}
+.card{
+    width:70px;
+}
+
+.box{
+    width: 70%;
+    margin: auto;
+    display:block;
+    overflow: auto;
+}
+#player3-cards{float: left;}
+#player4-cards{
+    width: 70px;
+    float: right;
+}
+#player1-cards{margin-top:7%;}
+#chat{
+    width: 30%;
+    margin-top:5%;
+    margin-left: 35%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 1.5em;
+    border-radius:10px;
+    height: 100px;
+    line-height: 100px;
+}
+.player:hover{
+    width:95px;
+    cursor: pointer;
+}
+.player:focus{
+    width: 95px;
+}
